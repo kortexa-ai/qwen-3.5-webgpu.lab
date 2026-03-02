@@ -4,6 +4,6 @@ location = /qwen-3-5-webgpu {
 }
 
 location /qwen-3-5-webgpu/ {
-    alias /home/francip/src/qwen-3.5-webgpu.lab/dist/;
+    alias /Users/francip/src/qwen-3.5-webgpu.lab/dist/;
     try_files $uri $uri/ /qwen-3-5-webgpu/index.html;
 }
